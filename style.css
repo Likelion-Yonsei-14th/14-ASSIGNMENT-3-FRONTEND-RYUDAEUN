@@ -63,6 +63,7 @@ body::before {
 }
 .intro-container {
     text-align: center;
+    font-size: 30px;
 }
 .bold-text {
     font-weight: bold;
@@ -77,4 +78,17 @@ ul {
     width: 100px;
     border-radius: 10px;
 }
-
+a {
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: pink;
+}
+.aboutme-container{
+    text-align: center;
+    font-size: 30px;
+}
