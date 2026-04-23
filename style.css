@@ -31,8 +31,12 @@
     background-color: black;
     color: white;
 }
+.contacts .box{
+  font-size: 25px;
+  padding: 10px;
+}
 
-*활동 페이지
+/*활동 페이지*/
 .activities {
   padding: 60px;
 }
@@ -61,3 +65,33 @@
   object-fit: cover;
   border-radius: 15px;
 } 
+.contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+}
+.sidebar{
+  width: 0;
+  height: 0;
+}
+
+.sidebar ul{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  list-style: none;
+  font-size: 25px;
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}
+
+/*활동 네비게이션 바*/
+.activities-main{
+  margin-left: 200px;
+  padding: 40px;
+}
